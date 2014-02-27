@@ -1,0 +1,7 @@
+/* Startt should have no parameters */
+
+Program {
+        start(asdf : Int) : Nothing {
+                return;
+        };
+};

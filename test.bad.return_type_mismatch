@@ -1,0 +1,5 @@
+Program {
+        start() : Nothing {
+                return 5;
+        };
+};

@@ -1,0 +1,8 @@
+/* start should return nothing */
+
+Program {
+        asdf : Program;
+        start() : Program {
+                return asdf;
+        };
+};
