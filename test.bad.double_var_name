@@ -1,0 +1,5 @@
+/* Double identity */
+Program {
+        asdf : Int;
+        asdf : Bool;
+};

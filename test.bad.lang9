@@ -1,0 +1,7 @@
+Program {
+        asdf : Int;
+        start() : Nothing {
+                asdf = asdf.start();
+                return;
+        };
+};

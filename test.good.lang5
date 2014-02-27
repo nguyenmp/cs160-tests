@@ -1,0 +1,36 @@
+GodType {
+
+};
+
+Program from GodType {
+        ff : GodType;
+        gg : Program;
+
+        fffuni() : GodType {
+                return ff;
+        };
+
+        fffuna(p : Program) : GodType {
+                return p;
+        };
+
+        fffunb(p : GodType) : GodType {
+                return p;
+        };
+
+        fffffFun(f : GodType) : Program {
+                return gg;
+        };
+
+        start() : Nothing {
+                b : Program;
+                ff = b;
+                ff = fffuni();
+                ff = fffuna(gg);
+                ff = fffunb(ff);
+                gg = fffffFun(ff);
+                ff = fffunb(gg);
+                gg = fffffFun(gg);
+                return;
+        };
+};

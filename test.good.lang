@@ -1,0 +1,72 @@
+FibGenerator
+{
+    last:Int;
+    second_to_last:Int;
+
+    start() : Int {
+        return 4;
+    };
+
+    next_fib():Int
+    {
+        next:Int;
+        second_to_last = last;
+        next = last + second_to_last;
+        next = last * second_to_last;
+        next = last / second_to_last;
+        next = last - second_to_last;
+        last = next;
+        next = last + next_fib();
+        next = last * next_fib();
+        next = last / next_fib();
+        next = last - next_fib();
+        return next;
+    };
+};
+
+OnceResetingFibGenerator from FibGenerator
+{
+
+    update( state1:Int, state2:Int ): Bool
+    {
+        last = state1;
+        second_to_last = state2;
+        return true;
+    };
+};
+Class14642286y78wihfu
+{
+    asdf : Int;
+
+    pens(): Int {
+        return 1;
+    };
+};
+
+Program from Class14642286y78wihfu
+{
+
+    fdsa : Program;
+
+    end() : Program
+    {
+        print asdf;
+        if true then asdf = 2;
+        return fdsa;
+    };
+
+    system(p: Class14642286y78wihfu, f : FibGenerator) : FibGenerator {
+        return f;
+    };
+
+    start() : Nothing
+    {
+        success : Bool;
+        f : OnceResetingFibGenerator;
+        g : FibGenerator;
+        success = f.update(asdf, pens());
+        g = system(fdsa, g);
+        return;
+    };
+};
+

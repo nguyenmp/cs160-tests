@@ -1,0 +1,14 @@
+/* Overloading functions */
+
+GodType {
+        start() : Int {
+                return 223 + 266 / 669954 * 541 + start() ;
+        };
+};
+
+Program from GodType {
+        start() : Nothing {
+                return;
+        };
+
+};

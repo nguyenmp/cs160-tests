@@ -1,0 +1,11 @@
+/* Program not declared yet */
+
+Penis from Program {
+
+};
+
+Program {
+        start() : Nothing {
+                return;
+        };
+};

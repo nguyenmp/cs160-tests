@@ -1,0 +1,6 @@
+/* Undefined parameter class */
+Program {
+        asdf(aifsdf : Random) : Nothing {
+                return;
+        };
+};

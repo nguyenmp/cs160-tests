@@ -1,0 +1,18 @@
+/* make sure you look up in the scope of parent classes for functions */
+Program2 {
+        sig : Int;
+        ma : Bool;
+        myInt(pi : Bool) : Int {
+                if pi then sig = 593;
+                return sig;
+        };
+};
+
+Program from Program2 {
+        start() : Nothing {
+                val : Int;
+                val = myInt(ma);
+                return;
+        };
+};
+

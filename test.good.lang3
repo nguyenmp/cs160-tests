@@ -1,0 +1,6 @@
+/* recursive function calls */
+Program {
+        start() : Nothing {
+                return start();
+        };
+};

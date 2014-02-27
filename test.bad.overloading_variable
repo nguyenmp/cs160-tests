@@ -1,0 +1,9 @@
+/* No Overloading Stuff! */
+
+Weee {
+        asdf : Int;
+};
+
+Program from Weee {
+        asdf : Int;
+};

@@ -1,0 +1,45 @@
+
+
+Something
+{ 
+    bob:Int;
+    end(cat:Something) : Something
+    {
+	roger:Something;
+	asdf:Int;
+	bob = 5;
+        if true then asdf = 1 + 2;
+        return roger;
+    };
+};
+
+Dog from Something
+{
+    kitty(cat:Int) : Something
+    {
+	roger:Something;
+	asdf:Int;
+	
+	print end(roger);
+        if true then asdf = 1 + 2;
+        return roger;
+    };
+};
+
+Program
+{
+    end(bob:Int,cat:Int) : Something
+    {
+	roger:Something;
+	asdf:Int;
+	bob = 5;
+        if true then asdf = 1 + 2;
+        return roger;
+    };
+
+    start() : Nothing
+    {
+        return;
+    };
+};
+
