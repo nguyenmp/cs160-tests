@@ -1,0 +1,12 @@
+Program {
+
+        pens(fff : Program, sss : Int) : Nothing {
+                ssss : Program;
+                fff = ssss;
+                return;
+        };
+
+        start() : Nothing {
+                return;
+        };
+};

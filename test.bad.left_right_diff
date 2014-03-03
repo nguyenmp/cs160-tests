@@ -1,0 +1,38 @@
+Animal {
+        monster : Animal;
+        sssf : Int;
+
+        pee(meow : Animal) : Int {
+                return -66 / 546 * 6532 - - 6523 + pee(monster);
+        };
+};
+
+Cat from Animal {
+
+};
+Bob from Cat {
+
+	wolf(c:Int) : Bob {
+		cat:Bob;
+		cat = wolf(5);
+		return cat;
+	};
+};
+
+Program from Bob {
+
+	start() : Nothing {
+		cat : Cat;
+		bob : Bob;
+		test:Bob;
+                monster = wolf(sssf);
+                monster = wolf(4);
+                monster = pee(cat);
+                sssf = pee(bob);
+                sssf = cat.pee(bob);
+                sssf = bob.pee(cat);
+		test = bob.wolf(5);
+		monster = bob.wolf(5);
+		return;
+	};
+};
