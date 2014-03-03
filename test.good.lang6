@@ -27,11 +27,12 @@ Program from Bob {
 		test:Bob;
                 monster = wolf(sssf);
                 monster = wolf(4);
-                monster = pee(cat);
-                monster = pee(bob);
-                monster = cat.pee(bob);
-                mosnter = bob.pee(cat);
+                sssf = pee(cat);
+                sssf = pee(bob);
+                sssf = cat.pee(bob);
+                sssf = bob.pee(cat);
 		test = bob.wolf(5);
+		monster = bob.wolf(5);
 		return;
 	};
 };
