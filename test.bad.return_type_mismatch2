@@ -1,0 +1,11 @@
+Program {
+
+        foo() : Program {
+                bar : Program;
+                return bar;
+        };
+
+        start() : Nothing {
+                return foo();
+        };
+};

@@ -1,0 +1,23 @@
+Cat { 
+
+};
+Bob from Cat { 
+	
+	wolf(c:Int) : Bob {
+		cat:Bob;
+		cat = wolf(5);
+		return cat;
+	};
+};
+
+Program from Bob {
+
+	start() : Nothing {
+		cat : Cat;
+		bob : Bob;
+		
+		test:Bob;
+		test = bob.wolf(5);
+		return;
+	};
+};
